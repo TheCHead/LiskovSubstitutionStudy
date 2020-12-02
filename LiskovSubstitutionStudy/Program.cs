@@ -11,17 +11,18 @@ namespace LiskovSubstitutionStudy
     {
         static void Main(string[] args)
         {
-            IManager accountingVP = new Manager();
+            IManager accountingVP = new CEO();
 
             accountingVP.FirstName = "Emma";
             accountingVP.LastName = "Stone";
+
             accountingVP.CalculatePerHourRate(4);
 
-            IManager emp = new CEO();
+            IManaged emp = new Manager();
 
             emp.FirstName = "Michael";
             emp.LastName = "Scott";
-
+            emp.AssignManager(accountingVP);
             emp.CalculatePerHourRate(2);
 
             Console.WriteLine($"{ emp.FirstName }'s salary is ${ emp.Salary }/hour.");

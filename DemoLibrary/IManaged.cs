@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary
 {
-    interface IManaged : IEmployee
+    public interface IManaged : IEmployee
     {
         IEmployee ManagedBy { get; set; }
 

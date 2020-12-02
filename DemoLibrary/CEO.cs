@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary
 {
-    public class CEO : IManager
+    public class CEO : BaseEmployee, IManager
     {
-        public string FirstName { get ; set ; }
-        public string LastName { get ; set ; }
-        public decimal Salary { get ; set ; }
 
-        public void CalculatePerHourRate(int rank)
+
+        public override void CalculatePerHourRate(int rank)
         {
             decimal baseAmount = 150M;
             Salary = baseAmount * rank;
