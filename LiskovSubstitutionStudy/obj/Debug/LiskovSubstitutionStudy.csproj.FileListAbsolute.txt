@@ -1,0 +1,10 @@
+C:\Users\Nikita Dmitriev\CSharpStudy\Demos\LiskovSubstitutionStudy\LiskovSubstitutionStudy\obj\Debug\LiskovSubstitutionStudy.csprojAssemblyReference.cache
+C:\Users\Nikita Dmitriev\CSharpStudy\Demos\LiskovSubstitutionStudy\LiskovSubstitutionStudy\obj\Debug\LiskovSubstitutionStudy.csproj.CoreCompileInputs.cache
+C:\Users\Nikita Dmitriev\CSharpStudy\Demos\LiskovSubstitutionStudy\LiskovSubstitutionStudy\bin\Debug\LiskovSubstitutionStudy.exe.config
+C:\Users\Nikita Dmitriev\CSharpStudy\Demos\LiskovSubstitutionStudy\LiskovSubstitutionStudy\bin\Debug\LiskovSubstitutionStudy.exe
+C:\Users\Nikita Dmitriev\CSharpStudy\Demos\LiskovSubstitutionStudy\LiskovSubstitutionStudy\bin\Debug\LiskovSubstitutionStudy.pdb
+C:\Users\Nikita Dmitriev\CSharpStudy\Demos\LiskovSubstitutionStudy\LiskovSubstitutionStudy\bin\Debug\DemoLibrary.dll
+C:\Users\Nikita Dmitriev\CSharpStudy\Demos\LiskovSubstitutionStudy\LiskovSubstitutionStudy\bin\Debug\DemoLibrary.pdb
+C:\Users\Nikita Dmitriev\CSharpStudy\Demos\LiskovSubstitutionStudy\LiskovSubstitutionStudy\obj\Debug\LiskovSubstitutionStudy.csproj.CopyComplete
+C:\Users\Nikita Dmitriev\CSharpStudy\Demos\LiskovSubstitutionStudy\LiskovSubstitutionStudy\obj\Debug\LiskovSubstitutionStudy.exe
+C:\Users\Nikita Dmitriev\CSharpStudy\Demos\LiskovSubstitutionStudy\LiskovSubstitutionStudy\obj\Debug\LiskovSubstitutionStudy.pdb
