@@ -6,18 +6,19 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary
 {
-    public class CEO : Employee
+    public class CEO : IManager
     {
-        public override void CalculatePerHourRate(int rank)
+        public string FirstName { get ; set ; }
+        public string LastName { get ; set ; }
+        public decimal Salary { get ; set ; }
+
+        public void CalculatePerHourRate(int rank)
         {
             decimal baseAmount = 150M;
             Salary = baseAmount * rank;
         }
 
-        public override void AssignManager(Employee manager)
-        {
-            throw new InvalidOperationException("The CEO has no manager.");
-        }
+
 
         public void GeneratePerformanceReview()
         {

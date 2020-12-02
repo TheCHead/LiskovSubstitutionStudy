@@ -6,17 +6,19 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary
 {
-    public class Employee
+    public class Employee : IEmployee, IManaged
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public Employee Manager { get; set; }
+        public IEmployee ManagedBy { get; set; }
         public decimal Salary { get; set; }
 
-        public virtual void AssignManager(Employee manager)
+
+        public virtual void AssignManager(IEmployee manager)
         {
-            Manager = manager;
+            ManagedBy = manager;
         }
+
 
         public virtual void CalculatePerHourRate(int rank)
         {
